@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/new.css')}}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-COMPATIBLE" content="ie=edge">
+</head>
+<body>
+    <div class="container">
+        <h1>Форма регистрации</h1>
+        <form action="check.php" method="post">
+            <input type="text" class="form-control" name="login" id="login" placeholder="Введите пароль"><br>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Введите имя"><br>
+            <input type="password" class="form-control" name="pass" id="pass" placeholder="Введите пароль"><br>
+            <button class="btn btn-succes" type="sumbit">Зарегистироваться</button>
+        </form>
+    </div>
+</body>
+</html>

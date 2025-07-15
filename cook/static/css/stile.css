@@ -1,0 +1,100 @@
+.div { 
+    background-color: #D6EAF8;
+    width: 905px;  
+    padding: 50px; 
+    border: solid 1px black; 
+    float: center;
+    left: 200px;
+    position: relative;   
+    margin: 10;
+}
+
+body {
+    background: #808080;
+    background: url("../images/images.jfif") no-repeat;
+    size: 1000%;
+    height: 1000px;
+}
+
+.reg {
+    color: black;
+    border: solid 1px blue;
+    width: 90px;
+    align-items: left;
+    padding: 10px;
+    margin-left: 1015px
+}
+
+.list {
+    background-color:forestgreen;
+    color: black;
+    width: 164.5px;
+    padding: 10px; 
+}
+
+.m { 
+    float: center;
+    width: 1005px;  
+    padding: 0px; 
+    color: white;
+    background-color: #32CD32; 
+    float: center; 
+    position: relative; 
+    left: 100px; 
+    right: 50px; 
+    margin: 10;
+    bottom: 100;
+    text-align: center;
+}
+
+.h_main {
+    font-style: italic;
+    font-weight:900;
+    color: blue;
+    padding: 16px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.h_mainer {
+    background-color: yellowgreen;
+    color: white;
+    padding: 16px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.h_des {
+    color: black;
+    padding: 16px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.h_info {
+    color: black;
+    padding: 16px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.h_nomer {
+    text-align: center;
+    color: darkblue;
+    padding: 16px 0px;
+    margin: 8px 0;
+    opacity: 0.9;
+}

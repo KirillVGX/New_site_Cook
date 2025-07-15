@@ -1,0 +1,313 @@
+.r {
+    background-color: yellowgreen;
+    color: white;
+    padding: 16px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.container {
+    display: flex;
+    margin-left: 500px
+}
+
+.div { 
+    background-color: #D6EAF8;
+    width: 905px;  
+    padding: 50px; 
+    border: solid 1px black; 
+    float: center;
+    left: 100px;
+    position: relative;   
+    /* margin: 10; */
+    margin-left: 500px
+}
+
+.divv {
+    /* left: 700; */
+    margin-left: 100px 
+}
+
+.photo {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.desk {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: rgba(1, 144, 214, 1);
+    min-height: 93px;
+    padding: 0 15px;
+    top: 0;
+    -webkit-transfoorm: translate(0, 76%);
+    transition: all .3s;
+}
+
+.t {
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: RobotoCondensedBold;
+    margin: 11px 0 2px;
+    transition: all .3s;
+    overflow: hidden;
+    min-height: 38px;
+    height: 37px;
+    font-size: 19px;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+}
+
+.date {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: RobotoCondensedLight;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.social-block1 {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.view {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: RobotoCondensedLight;
+    color: #fff;
+    position: relative;
+    margin: 0 26px;
+}
+
+.like {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: RobotoCondensedLight;
+    color: #fff;
+    position: relative;
+    margin: 0 26px;
+    cursor: pointer;
+}
+
+.line-1 {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    height: 8px;
+    width: 0;
+    left: 0;
+    top: 0;
+    background: #7ACCF2;
+}
+
+.line-2 {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 0;
+    top: 0;
+    right: 0;
+    background: #7ACCF2;
+}
+
+.line-3 {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    height: 8px;
+    width: 0;
+    right: 0;
+    bottom: 0;
+    background: #7ACCF2;
+}
+
+.line-4 {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background: #7ACCF2;
+}
+
+.img {
+    width:280px;
+    height:560;
+    margin: 0px -15px!important; 
+}
+
+.item {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    width: 319px;
+    min-height: 319px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 50px !important; 
+}
+
+.holder{
+    position:relative; 
+    width:290px;
+    height:260;
+    margin: 0 300px 50px !important; 
+    text-align: left;
+    font-size: 0;
+}
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    padding:0;
+    display:none;
+    border: solid 5px blue;
+}
+.holder:hover .block{
+    display:block;
+}
+
+.desk2 {
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: RobotoCondensedRegular;
+    margin: 0;
+    box-sizing: border-box;
+    position: y;
+    bottom: 0;
+    width: 100%;
+    text-align: end;
+    color: #fff;
+    background: rgba(1, 144, 214, 1);
+    min-height: 93px;
+    padding: 0 15px;
+    top: 0;
+    -webkit-transfoorm: translate(0, 76%);
+    transition: all .3s;
+    border: solid 5px blue;
+}
+/*
+<div class="demo">
+    <input class="toggle-box" id="identifier-1" type="checkbox" >
+    <label for="identifier-1">Нажмите здесь, чтобы прочитать больше о HTML!</label>
+    <div>HTML — стандартный язык разметки документов во Всемирной паутине. Большинство веб-страниц содержат описание разметки на языке HTML (или XHTML). Язык HTML интерпретируется браузерами и отображается в виде документа в удобной для человека форме..</div>
+    <input class="toggle-box" id="identifier-2" type="checkbox" >
+    <label for="identifier-2">Нажмите здесь, чтобы прочитать больше о CSS!</label>
+    <div>CSS - CSS Cascading Style Sheets — каскадные таблицы стилей — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, например, к SVG или XUL.</div>
+</div>
+
+.toggle-box {
+    display: none;
+  }
+  .toggle-box + label {
+    display: block;
+  }
+  .toggle-box + label + div {
+    display: none;
+  }
+  .toggle-box:checked + label + div {
+    display: block;
+    background: #efefef;
+    padding:5px;    
+  }
+  / demo position /
+  .demo {
+      margin: 5% 10%;
+  }/*

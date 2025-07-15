@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block title -%}
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/stile.css')}}">
+    <link rel="icon" href="static/images/icon.png">
+    {% endblock %}
+</head>
+<body>
+    {% block button %}
+
+    <h1 style="margin-left: 100px " class="m">Рецепти</h1>
+    
+    <select style="margin-left: 200px " class="list" onchange="window.location.href=this.options[this.selectedIndex].value">
+        <option value="">Перші страви</option>
+        <option value="{{url_for('solanka')}}">Солянка</a></option>
+        <option value="{{url_for('soup')}}">Суп</a></option>
+        <option value="{{url_for('soup2')}}">Крем-суп</a></option>
+    </select>
+
+    <select class="list" onchange="window.location.href=this.options[this.selectedIndex].value">
+        <option value="">Другі страви</option>
+        <option value="{{url_for('potato_casserole')}}">Картопляна запіканка</a></option>
+        <option value="{{url_for('chiken_thomas')}}">Курячі гомілки</a></option>
+        <option value="{{url_for('kartoplyani_zrazy')}}">Картопляні зрази</a></option>
+    </select>
+
+    <select class="list" onchange="window.location.href=this.options[this.selectedIndex].value">
+        <option value="">Випічка</option>
+        <option value="{{url_for('pie')}}">Сливовий пиріг</a></option>
+        <option value="{{url_for('strudel')}}">Штрудель</a></option>
+        <option value="{{url_for('apple_crumble')}}">Яблучний крамбл</a></option>
+    </select>
+
+    <select class="list" onchange="window.location.href=this.options[this.selectedIndex].value">
+        <option value="">Десерти</option>
+        <option value="{{url_for('mlinci')}}">Млинці</a></option>
+        <option value="{{url_for('ponhiki')}}">Пончики</a></option>
+        <option value="{{url_for('panna_cotta')}}">Панакота</a></option>
+    </select>
+
+    <select class="list" onchange="window.location.href=this.options[this.selectedIndex].value">
+        <option value="">Напої</option>
+        <option value="{{url_for('milkshake')}}">Молочний коктейль</a></option>
+        <option value="{{url_for('egg_nog')}}">Егг-ног</a></option>
+        <option value="{{url_for('cherry_compote')}}">Компот</a></option>
+    </select>
+
+    <select class="list" onchange="window.location.href=this.options[this.selectedIndex].value"> 
+        <option value="">Торти</option>   
+        <option value="{{url_for('napoleon')}}">Наполеон</a></option>
+        <option value="{{url_for('kyiv_tort')}}">Київський торт</a></option>
+        <option value="{{url_for('raspberry_cake')}}">Малиновий торт-морозиво</a></option>
+    </select>
+    
+    {% endblock %}
+</body>
+</html>

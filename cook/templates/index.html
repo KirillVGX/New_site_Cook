@@ -1,0 +1,245 @@
+{% extends 'base.html' %}
+{% block button %}
+{{ super() }}
+<title>Головна сторінка</title>
+<link rel="stylesheet" href="{{url_for('static', filename='css/new.css')}}">
+
+
+<div class="div">
+    <h1 class="r" style="text-align:center">Рекомендації</h1>
+</div>
+<div class="divv">
+    <div class="holder">
+        <div class="desk2">
+            <img class="img" src="static\images\solyanka-recept-1.jpg" alt="Класичний рецепт солянки">
+            <div class="t">Класичний рецепт солянки</div>
+            <div class="date">Перші страви</div>
+        </div>
+    <div class="block">
+        <div class="photo">
+            <a href="{{url_for('solanka')}}"> 
+                <div class="desk">
+                    <div class="t">Класичний рецепт солянки</div>
+                    <div class="date">Перші страви</div>
+                    <div class="social-block1">
+                        <div class="top">
+                            <span class="view">34563</span>
+                            <span class="like">96</span>
+                        </div>
+                    </div>
+                    <p>Страва, зварена на м'ясному, грибному чи рибному концентрованому розсолі</p>
+                </div>
+                <div class="line-1">
+                    <i></i>
+                </div>
+                <div class="line-2">
+                    <i></i>
+                </div>
+                <div class="line-3">
+                    <i></i>
+                </div>
+                <div class="line-4">
+                    <i></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    <div class="holder">
+        <div class="desk2">
+            <img class="img" src="static\images\600х300-kuryachi-homilky.jpg" alt="Курячі гомілки в сметанному соусі з гірчицею">
+            <div class="t">Курячі гомілки в сметанному соусі з гірчицею</div>
+            <div class="date">Другі страви</div>
+        </div>
+    <div class="block">
+        <div class="photo">
+            <a href="{{url_for('chiken_thomas')}}"> 
+                <div class="desk">
+                    <div class="t">Курячі гомілки в сметанному соусі з гірчицею</div>
+                    <div class="date">Другі страви</div>
+                    <div class="social-block1">
+                        <div class="top">
+                            <span class="view">15566</span>
+                            <span class="like">14</span>
+                        </div>
+                    </div>
+                    <p>Щось смачненьке на обід — це вони: курячі гомілки в сметанному соусі.</p>
+                </div>
+                <div class="line-1">
+                    <i></i>
+                </div>
+                <div class="line-2">
+                    <i></i>
+                </div>
+                <div class="line-3">
+                    <i></i>
+                </div>
+                <div class="line-4">
+                    <i></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="holder">
+        <div class="desk2">
+            <img class="img" src="static\images\Recept_yabluchnij_krambl_600х300.jpg" alt="Яблучний крамбл">
+            <div class="t">Яблучний крамбл</div>
+            <div class="date">Випічка</div>
+        </div>
+    <div class="block">
+        <div class="photo">
+            <a href="{{url_for('apple_crumble')}}"> 
+                <div class="desk">
+                    <div class="t">Яблучний крамбл</div>
+                    <div class="date">Випічка</div>
+                    <div class="social-block1">
+                        <div class="top">
+                            <span class="view">15137</span>
+                            <span class="like">17</span>
+                        </div>
+                    </div>
+                    <p>Запашний англійський десерт із соковитою фруктовою начинкою і хрустким розсипчастим тістом.</p>
+                </div>
+                <div class="line-1">
+                    <i></i>
+                </div>
+                <div class="line-2">
+                    <i></i>
+                </div>
+                <div class="line-3">
+                    <i></i>
+                </div>
+                <div class="line-4">
+                    <i></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="holder">
+        <div class="desk2">
+            <img class="img" src="static\images\recipe-panakota-600х300.jpg" alt="Класична панакота з ягідним соусом">
+            <div class="t">Класична панакота з ягідним соусом</div>
+            <div class="date">Десерти</div>
+        </div>
+    <div class="block">
+        <div class="photo">
+            <a href="{{url_for('panna_cotta')}}"> 
+                <div class="desk">
+                    <div class="t">Класична панакота з ягідним соусом</div>
+                    <div class="date">Десерти</div>
+                    <div class="social-block1">
+                        <div class="top">
+                            <span class="view">2421368</span>
+                            <span class="like">1346</span>
+                        </div>
+                    </div>
+                    <p>Ніжна панакота — знаменитий десерт італійської кухні на основі вершків, цукру, желатину та ванілі.</p>
+                </div>
+                <div class="line-1">
+                    <i></i>
+                </div>
+                <div class="line-2">
+                    <i></i>
+                </div>
+                <div class="line-3">
+                    <i></i>
+                </div>
+                <div class="line-4">
+                    <i></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="holder">
+        <div class="desk2">
+            <img class="img" src="static\images\kompot.jpg" alt="Компоти з додаванням лимона">
+            <div class="t">Компоти з додаванням лимона</div>
+            <div class="date">Напої</div>
+        </div>
+    <div class="block">
+        <div class="photo">
+            <a href="{{url_for('cherry_compote')}}"> 
+                <div class="desk">
+                    <div class="t">Компоти з додаванням лимона</div>
+                    <div class="date">Напої</div>
+                    <div class="social-block1">
+                        <div class="top">
+                            <span class="view">181863</span>
+                            <span class="like">87</span>
+                        </div>
+                    </div>
+                    <p>Восени, взимку та навесні, коли нам так не вистачає вітамінів, у нагоді стають компоти із заморожених ягід</p>
+                </div>
+                <div class="line-1">
+                    <i></i>
+                </div>
+                <div class="line-2">
+                    <i></i>
+                </div>
+                <div class="line-3">
+                    <i></i>
+                </div>
+                <div class="line-4">
+                    <i></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="holder">
+        <div class="desk2">
+            <img class="img" src="static\images\napoleon.jpg" alt="Торт «Наполеон»">
+            <div class="t">Торт «Наполеон»</div>
+            <div class="date">Торти</div>
+        </div>
+    <div class="block">
+        <div class="photo">
+            <a href="{{url_for('napoleon')}}"> 
+                <div class="desk">
+                    <div class="t">Торт «Наполеон»</div>
+                    <div class="date">Торти</div>
+                    <div class="social-block1">
+                        <div class="top">
+                            <span class="view">33898</span>
+                            <span class="like">38</span>
+                        </div>
+                    </div>
+                    <p>Якщо ви запитаєте в себе, чого б хотілося на десерт, що вам перше прийде у голову? Звісно ж, торт!</p>
+                </div>
+                <div class="line-1">
+                    <i></i>
+                </div>
+                <div class="line-2">
+                    <i></i>
+                </div>
+                <div class="line-3">
+                    <i></i>
+                </div>
+                <div class="line-4">
+                    <i></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+</div>
+
+{% endblock %}
